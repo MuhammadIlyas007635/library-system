@@ -20,6 +20,7 @@ Route::get('/category-by-book/{id}', [HomeController::class, 'booksByCategory'])
 
 
 
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
