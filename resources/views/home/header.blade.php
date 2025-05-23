@@ -27,7 +27,7 @@
                          <li><a href="{{url('/explore')}}">Explore</a></li>
                          <li><a href="{{url('/books_detail')}}">Item Details</a></li>
 
-                         <li><a href="#">Create Yours</a></li>
+                       
 
 
 
