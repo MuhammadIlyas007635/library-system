@@ -1,0 +1,17 @@
+is main hum ne project ke admin ke related jitny bhi kam hain un ki functions rkhy hain.
+
+databse table:
+                categories : id , cat_title
+                books: id ,category_id, book_title. author_name, price, quantity, book_image, author_image is ke sat timestamp bhi hain
+                borrow: id, book_id, user_id or timestamp
+                users: id, name, email, phone, address, usertype, usertype default user ha is main
+
+Models:
+             Category, Book, User,borrow
+             is main hum ne relation bhi banaya ha.
+
+Controllers: 
+              AdminController, HomeController;
+
+Authentiation: 
+                jetstream                                            
